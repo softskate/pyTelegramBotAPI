@@ -595,7 +595,7 @@ Using AsyncTeleBot allows you to do the following:
 ```python
 import telebot
 
-tb = telebot.AsyncTeleBot("TOKEN")
+tb = telebot.async_telebot.AsyncTeleBot("TOKEN")
 
 @tb.message_handler(commands=['start'])
 async def start_message(message):
